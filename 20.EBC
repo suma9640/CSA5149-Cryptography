@@ -3,7 +3,7 @@
 #include <string.h>
 #include <openssl/aes.h>
 
-// AES key for ECB mode (128 bits = 16 bytes)
+// AES key for ECB mode (128 bits = 16 bytes) 
 unsigned char aes_key[] = "0123456789abcdef";
 
 void print_hex(const char *label, const unsigned char *s, int len) {
